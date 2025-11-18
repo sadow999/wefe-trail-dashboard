@@ -1,0 +1,90 @@
+# Water System Calculator
+
+Excel-based tool for sizing and designing water systems for arid regions.
+
+## 🛠️ **Tool Features**
+- **Format**: Microsoft Excel (.xlsx)
+- **Size**: 2.1 MB
+- **Compatibility**: Excel 2016+
+- **Sheets**: 6 (Input, Calculations, Results, Charts, Scenarios, Help)
+
+## 🎯 **Purpose**
+Quickly estimate water system requirements, costs, and performance for WEFE projects in arid environments.
+
+## 📊 **Calculator Modules**
+
+### 1. Water Demand Analysis
+- Population sizing
+- Per capita water requirements
+- Agricultural and industrial needs
+- Seasonal variations
+
+### 2. System Sizing
+- Pump capacity calculations
+- Pipeline sizing
+- Storage requirements
+- Peak demand factors
+
+### 3. Desalination Analysis
+- RO vs thermal comparison
+- Energy consumption estimates
+- Recovery rates
+- Brine production calculations
+
+### 4. Cost Analysis
+- Capital expenditure (CAPEX)
+- Operational expenditure (OPEX)
+- Levelized cost of water (LCOW)
+- Sensitivity analysis
+
+### 5. Performance Metrics
+- Water quality parameters
+- System efficiency
+- Reliability factors
+- Maintenance schedules
+
+### 6. Scenario Comparison
+- Multiple technology options
+- Cost-benefit analysis
+- Environmental impact assessment
+- Risk assessment
+
+## 🔧 **How to Use**
+1. Enter project parameters in yellow cells
+2. Review automatic calculations
+3. Compare different scenarios
+4. Export results and charts
+5. Validate with technical experts
+
+## 📈 **Input Parameters Required**
+- Daily water demand (liters/day)
+- Number of beneficiaries
+- Water source quality
+- Required water quality standards
+- Available energy sources
+- Budget constraints
+- Timeline requirements
+
+## 📊 **Output Reports**
+- System specifications summary
+- Cost breakdown by category
+- Performance projections
+- Sensitivity analysis charts
+- Recommendation report
+
+## ⚠️ **Important Notes**
+- All yellow cells require input
+- Results are estimates only
+- Validate with field data
+- Consider local conditions
+- Include safety factors
+
+## 🎯 **Best Practices**
+- Use conservative estimates
+- Include maintenance access
+- Plan for expansion
+- Consider climate change impacts
+- Engage local stakeholders
+
+---
+*Tool developed for WEFE Trail water pillar projects*

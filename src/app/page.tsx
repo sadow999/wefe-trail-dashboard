@@ -816,45 +816,64 @@ const resources: Resource[] = [
     title: 'UNESCO ProDoc Template 2024',
     type: 'document',
     category: 'Templates',
-    description: 'Official UNESCO Project Document template with section-by-section guidelines',
-    url: '/templates/unesco-prodoc-2024.docx',
+    description: 'Official UNESCO Project Document template for the WEFE Trail mentorship program with all required sections and annexes.',
+    url: '/attachments/documents/UNESCO_ProDoc_Template_2024.docx',
     size: '2.5 MB'
   },
   {
     id: '2',
-    title: 'Stakeholder Analysis Toolkit',
-    type: 'tool',
+    title: 'Stakeholder Analysis Template',
+    type: 'template',
     category: 'Assessment Tools',
-    description: 'Interactive toolkit for mapping and analyzing project stakeholders',
-    url: '/tools/stakeholder-analysis.xlsx',
+    description: 'Interactive Excel template for comprehensive stakeholder mapping and analysis with 5 worksheets.',
+    url: '/attachments/templates/Stakeholder_Analysis_Template.xlsx',
     size: '1.2 MB'
   },
   {
     id: '3',
-    title: 'Desalination Technology Masterclass',
-    type: 'video',
-    category: 'Technical Training',
-    description: 'Comprehensive video series on modern desalination technologies',
-    url: '/videos/desalination-masterclass',
-    duration: '3.5 hours'
+    title: 'Business Model Canvas Template',
+    type: 'template',
+    category: 'Business Development',
+    description: 'Strategic planning template with 12 slides covering all 9 building blocks of the BMC.',
+    url: '/attachments/templates/Business_Model_Canvas.pptx',
+    size: '3.8 MB'
   },
   {
     id: '4',
-    title: 'Business Model Canvas Guide',
-    type: 'document',
-    category: 'Business Development',
-    description: 'Step-by-step guide to developing your business model canvas',
-    url: '/guides/bmc-guide.pdf',
-    size: '5.8 MB'
+    title: 'Session 1.1: Kick-off & ProDoc Deconstruction',
+    type: 'video',
+    category: 'Session Recordings',
+    description: 'Complete recording of the initial kick-off session (2 hours 15 minutes, HD 1080p).',
+    url: '/attachments/videos/Session_1_1_Kickoff_Recording.mp4',
+    duration: '2h 15m',
+    size: '850 MB'
   },
   {
     id: '5',
-    title: 'Risk Assessment Framework',
-    type: 'template',
-    category: 'Risk Management',
-    description: 'Comprehensive template for project risk assessment and mitigation',
-    url: '/templates/risk-assessment.xlsx',
-    size: '3.1 MB'
+    title: 'Water System Calculator',
+    type: 'tool',
+    category: 'Technical Tools',
+    description: 'Excel-based tool for sizing and designing water systems for arid regions with 6 calculation modules.',
+    url: '/attachments/tools/Water_Calculator_Excel.xlsx',
+    size: '2.1 MB'
+  },
+  {
+    id: '6',
+    title: 'WEFE Program Timeline 2024',
+    type: 'document',
+    category: 'Visual Resources',
+    description: 'High-resolution infographic showing the complete 6-week program structure and timeline.',
+    url: '/attachments/images/WEFE_Program_Timeline_2024.png',
+    size: '850 KB'
+  },
+  {
+    id: '7',
+    title: 'Attachments Directory',
+    type: 'document',
+    category: 'Resource Library',
+    description: 'Complete directory of all downloadable program materials organized by category.',
+    url: '/attachments/README.md',
+    size: '5 KB'
   }
 ]
 
@@ -1743,7 +1762,7 @@ export default function WEFEDashboard() {
                       {resource.size && <span>Size: {resource.size}</span>}
                       {resource.duration && <span>Duration: {resource.duration}</span>}
                     </div>
-                    <Button className="w-full" variant="outline">
+                    <Button className="w-full" variant="outline" onClick={() => window.open(`https://github.com/sadow999/wefe-trail-dashboard/raw/main${resource.url}`, '_blank')}>
                       <Download className="w-4 h-4 mr-2" />
                       Download Resource
                     </Button>
